@@ -1,0 +1,112 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+header{
+    padding: 2%;
+}
+
+body{
+    background: #2be698;
+}
+
+main {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+} 
+
+.input-texto {
+    margin-top: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.informacion {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.encriptar {
+    background-color: rgb(197, 5, 15);
+    color:white;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+:hover.encriptar{
+    background-color: rgb(255, 160, 122);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.desencriptar {
+    background-color: rgb(1, 112, 163);
+    color:white;
+    margin-left: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+:hover.desencriptar{
+    background-color: rgba(0, 195, 255, 0.788);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.copiar {
+    background-color: rgb(204, 189, 49);
+    color:white;
+    position: relative;
+    margin-left: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+:hover.copiar{
+    background-color: rgb(224, 221, 32);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 90px;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: 220px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+@media screen and (max-width:480px) {}
